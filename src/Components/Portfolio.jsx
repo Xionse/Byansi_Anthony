@@ -19,9 +19,38 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
+// first card
 import image from "../images/Login And signUp.png";
+const imageAltText = "Project 1";
+
+//2nd card
+import image from "../images/Frame 1.jpg";
+const imageAltText = "Project 1";
+
+// 3rd image
+import image from "../images/Frame 2.jpg";
+const imageAltText = "Project 1";
+
+// image 4
+import image from "../images/christmas.png";
 
 const imageAltText = "Project 1";
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import image from "../images/Login And signUp.png";
+
+// const imageAltText = "Project 1";
 
 /**
  * Project list
@@ -29,37 +58,47 @@ const imageAltText = "Project 1";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
+
 const projectList = [
   {
-    title: "Chrsiatmas App Design 🎉",
+    title: "1. Login and signup",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    // url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A login and signup screen for An app.",
+      // <Card image="https://picsum.photos/200/300" title="Image 1" />,
+    // url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
+  
   {
-    title: "App Sketch For Addax Uganda light mode",
+    title: "2. App Sketch For Addax Uganda light mode",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "A tech/medical platform  for all deliveries and services.",
     // url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "App Sketch For Addax Uganda Dark mode",
+    title: "3. App Sketch For Addax Uganda Dark mode",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "A tech/medical platform  for all deliveries and services.",
+      // <Card image="https://picsum.photos/200/300" title="Image 1" />,
     // url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "4. Chrsiatmas App Design 🎉",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A site that where users can purchase christmas gift card for their friends and family.",
+    // url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
+  // {
+  //   title: "GitHub Codespaces and github.dev",
+  //   description:
+  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  // },
 ];
 
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+       
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -84,3 +123,7 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
+

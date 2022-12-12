@@ -24,13 +24,14 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Hi there! My name is Anthony Byansi, and I am a UX/UI designer with a passion for creating intuitive and engaging digital experience. I have a background in design, with a deep understanding of color theory, typography, layout, and user-centered design principles. I also have experience with design tools such as Sketch, Figma, and Adobe Creative Suite. As a UX/UI designer.  "
+  "Hi there! My name is Anthony Byansi, and I am a UX/UI designer with a passion for creating intuitive and engaging digital experience. I have a background in design, with a deep understanding of color theory, typography, layout, and user-centered design principles. I also have experience with design tools such as Sketch, Figma, and Adobe Creative Suite.  "
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
   "Web design",
+  "Mobile App Development",
   "User experience",
   "Inclusive design",
   "Focus group testing",
