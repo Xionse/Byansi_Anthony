@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "As a UX and UI designer, I'm passionate about creating intuitive and user-friendly designs that enhance the user experience. my career goal is to improve the way people interact with technology by designing easy-to-use interfaces. I'm constantly exploring new design techniques and staying up-to-date with the latest design trends.";
 
 const About = () => {
   return (
